@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sketchpad</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    
+    <div id="modify">
+        
+        <div class="menu_header">
+            <h2>Welcome to Sketch</h2>
+            <svg width="147" height="36" viewBox="0 0 147 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g id="arrow">
+                <line id="Line 1" x1="31.3004" y1="17.5" x2="147" y2="17.5" stroke="black"/>
+                <g id="Polygon 1">
+                <path d="M29.6825 32.7675L1.0896 18L29.6825 3.23253L29.6825 32.7675Z" stroke="black"/>
+                <path d="M29.6825 32.7675L1.0896 18L29.6825 3.23253L29.6825 32.7675Z" stroke="black" stroke-opacity="1"/>
+                </g>
+                </g>
+            </svg>
+        </div>
+        
+        <form>
+            <p>
+                <label for="gridNumber">Number of grids</label>&nbsp;
+                <input id="gridNumber" type="number"></p> 
+            <p><label for="sketchSize">Choose the size</label>&nbsp;
+                <select id="sketchSize" >
+                    <option value="100%">Full Screen</option>
+                    <option value="75%">75%</option>
+                    <option value="50%">50%</option>
+                </select>
+            </p>
+            
+            
+            <div id="cursors">
+                <p>Choose your cursor</p>
+                <div>
+                    <img class="thumbnail" src="img/brush.jpg" alt="brush">
+                    <img class="thumbnail" src="img/pencil.jpg" alt="pencil">
+                </div>
+                
+            </div>
+        </form>
+        
+    </div>
+    <div id="color">
+        <label for="colorPicker"> Color</label>
+        <input id = "colorPicker" type="color">
+        
+    </div>
+    <div id="container">
+        
+    </div>
+</body>
+<script src="functions.js"></script>
+</html>
