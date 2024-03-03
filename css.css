@@ -33,7 +33,7 @@ body {
     
     width: 600px;
     height: 600px;
-    border: 2px solid blue;
+    
     flex-direction: column;
     z-index: 2;
     
@@ -136,7 +136,7 @@ p {
 
 }
 
-.column {
+.square {
     outline: 1px solid black;
     flex: 1;
     height: 100%;
