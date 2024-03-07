@@ -6,9 +6,9 @@ const container = document.querySelector("#container");
 let colorPicker = document.querySelector("#colorPicker");
 
 //set default grid size
-gridNumber.value = 16;
+initial = prompt("Welcome to Sketch! How many grids you want (up to 100)?");
 
-let value = parseInt(gridNumber.value);
+let value = parseInt(initial); 
 
 
 //noting change in color value
